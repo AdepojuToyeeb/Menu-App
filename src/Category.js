@@ -2,9 +2,9 @@ import react from "react";
 
 const Category = ({category, filterItems}) =>{
     return(
-         <div>
+         <div className="btn-container">
              {category.map((cat,index)=>{
-                 return <button type="button" key={index} onClick={()=> filterItems(cat)}>{cat}</button>
+                 return <button type="button" className="filter-btn" key={index} onClick={()=> filterItems(cat)}>{cat}</button>
              })}
          </div>
     )

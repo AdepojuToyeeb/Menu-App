@@ -20,8 +20,8 @@ function App() {
   }
   return (
     <main>
-      <section>
-        <div>
+      <section className='menu section'>
+        <div className='title'>
           <h2>Adewale's menu</h2>
           <div className='underline'></div>        
         </div>
